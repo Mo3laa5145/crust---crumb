@@ -1,0 +1,78 @@
+:root {
+  --cream: #fff8f0;
+  --pink: #f8c79ef5;
+  --orange: #e87532;
+  --brown: #261d1a;
+  --green: #59b56b;
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--brown);
+}
+
+.navbar {
+  background-color: var(--cream) !important;
+  padding: 15px;
+}
+
+.navbar-brand {
+  color: var(--orange);
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: var(--brown);
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: var(--orange);
+}
+
+.custom-carousel img {
+  height: 400px;
+  object-fit: cover;
+}
+
+h1, h2 {
+  color: var(--brown);
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: var(--orange);
+  border-color: var(--orange);
+}
+
+.card {
+  background-color: var(--pink);
+  border: none;
+}
+.success {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: fit-content;
+    color: var(--green);
+}
+
+.success p {
+    margin: 0;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.text-success {
+  color: var(--green) !important;
+}
+
+#footer {
+  background-color: var(--brown);
+}
